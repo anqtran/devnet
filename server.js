@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
 
-// DB Config
+// DB Configa
 const db = require("./config/keys").mongoURI;
 
 // Connect to MongoDB
